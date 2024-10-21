@@ -15,23 +15,23 @@ for (const num of arr) {
     console.log(num);
 }
 console.log("Hello")
-// const map = new Map()
+const map = new Map()
 
-// map.set('IN', "India")
-// map.set('Fr', "France")
-// map.set('Usa', "United stated of america")
+map.set('IN', "India")
+map.set('Fr', "France")
+map.set('Usa', "United stated of america")
 
 
-// for (const [key,value] of map) {
-//    // console.log(key, '-', value)
-// }
+for (const [key,value] of map) {
+   // console.log(key, '-', value)
+}
 
-// const myobject = {
-//     'game1' : 'nsf',
-//     'game2' : 'mario'
-// }
+const myobject = {
+    'game1' : 'nsf',
+    'game2' : 'mario'
+}
 
-// // objects not iterable by for of loop
-// for (const key of myobject) {
-//     // console.log(key, '-', value)
-//  }
+// objects not iterable by for of loop
+for (const key of myobject) {
+    // console.log(key, '-', value)
+ }
