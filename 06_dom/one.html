@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #423e3e;
+        }
+    </style>
 </head>
-<body>
-    <div class = "bg-black">
-        <h1 id ="heading" class ="heading"> DOM Learing for javaScript</h1>
+<body class = "bg-black">
+    <div>
+        <h1 id ="heading" class ="heading"> DOM Learing for javaScript  <span style=" display: none;"> test text</span></h1>
+        <h2> Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2> Lorem, ipsum dolor.</h2>
         <p> Its sunny weather, today i will go to a beach</p>
+        <ul>
+            <li class='list-item'>one</li>
+            <li class ='list-item'>two</li>
+        </ul>
     </div>
 </body>
 </html>
+
+//<ul>​…​</ul>​
+<!-- const myUl = document.querySelector('ul')
+undefined
+cosnt myLi = myUl.querySelector('li')
+Uncaught SyntaxError: Unexpected identifier 'myLi'
+const myli = myUl.querySelector('li')
+undefined
+cosnole.log(myli)
+VM1583:1 Uncaught ReferenceError: cosnole is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1583:1
+console.log(myli)
+<li>​…​</li>​::marker​"one"</li>​
+undefined
+myli.style.background = "red"
+'red'
+const li1 = myUl.querySelectorAll('li')
+undefined
+console.log(li1)
+VM1888:1 NodeList(2) [li, li]0: li1: lilength: 2[[Prototype]]: NodeListentries: ƒ entries()forEach: ƒ forEach()item: ƒ item()keys: ƒ keys()length: (...)values: ƒ values()constructor: ƒ NodeList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "NodeList"get length: ƒ length()[[Prototype]]: Object
+undefined
+li1.forEach(item)=> item.style.background = "green")
+VM2059:1 Uncaught SyntaxError: Malformed arrow function parameter list 
+li1.forEach((item)=> item.style.background = "green")
+undefined
+
+document.getElementsByClassName('list-item')
+HTMLCollection(2) [li.list-item, li.list-item]
+arraList = Array.from(document.getElementsByClassName('list-item'))
+(2) [li.list-item, li.list-item]
+arraList.forEach((item)=> item.style.color ="green")
+undefined
+-->
